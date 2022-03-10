@@ -1,0 +1,19 @@
+The five basic concepts are:
+
+- variables and types:
+  A variable is a location in memory. To indicate the storage area,each variable should be given a
+  unique name (identifier).
+
+- control flows:
+  Control flows allow to do something conditionally and to repeatedly run code.
+
+- functions:
+  Functions enable us to separate code and to run code blocks when needed.
+
+- collections:
+  Collections enable us to store multiple elements in one place and iterate through multiple
+  elements (with the help of control flows)
+
+- classes and object (including inheritance):
+  Classes allow us to create our own data types, keep the data members and methods together in one
+  place and write more readable and maintainable code which helps us  to work better in a team.
