@@ -1,0 +1,9 @@
+- Exception is a runtime problem which occurs in the program and leads to program termination.
+- Exception handling is a technique which handles the runtime problems and maintains the flow of program execution
+
+- TRY, CATCH, FINALLY, THROW -> Keywords for exception handling
+
+- Unchecked Exception: Exception which is thrown due to mistakes in our code. Extends the RuntimeException class
+  Example: ArithmeticException, ArrayIndexOutOfBoundException, SecurityException, NullPointerException
+
+- Checked exception: Exceptions checked at compile time. Extends Throwable class.

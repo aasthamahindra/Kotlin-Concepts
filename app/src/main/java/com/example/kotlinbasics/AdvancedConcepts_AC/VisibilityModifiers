@@ -1,0 +1,14 @@
+- Visibility modifiers are the keywords which are used to restrict the use of classes, interfaces, methods,
+  and properties of Kotlin.
+- These modifiers are used at multiple places such as class header or method body.
+- They are categorized into four different types: public, private, protected, and internal
+
+- Public modifier (accessible everywhere) is default modifier in Kotlin.
+- Private modifier (accessible only in the block within which it is declared)
+- Internal modifier (makes the field visible only inside the module in which it is implemented)
+
+- Open keyword: Since all the classes in Kotlin are final by default, they can't be inherited by default
+                Therefore, to make the classes inheritable, we need to use Open keyword
+- Protected modifier (Allows visibility to its class or subclass only) cannot be used for packages.
+
+

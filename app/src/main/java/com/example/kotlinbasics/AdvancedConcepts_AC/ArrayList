@@ -1,0 +1,17 @@
+
+- ArrayLists are used to create a dynamic array which means the size of an ArrayList can be
+  increased or decreased according to your requirement.
+- The ArrayList class provides both read and write functionalities.
+- The ArrayList follows the sequence of insertion order
+- It is non synchronized and it may contain duplicate elements.
+
+Constructor of ArrayList
+- ArrayList<E>(): Is used to create an ArrayList of specified capacity
+- ArrayList(capacity:Int): Is used to create an ArrayList of specified capacity
+- ArrayList(elements: Collection<E>): Is used to create an ArrayList filled with the elements of a collection
+
+Some functions of Arraylist
+- open fun add(element:E): Boolean -> used to add the specific element into the collection
+- open fun clear() -> used to remove all elements from the collection
+- open fun get(index:Int): E -> used to return the element at specific index in the list
+- open fun remove(element:E):Boolean -> used to remove a single instance of the specific element from current collection, if it is available.
