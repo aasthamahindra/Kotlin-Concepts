@@ -1,0 +1,22 @@
+
+Collections are a group of same or different kind of data.
+There are two types of collections in Kotlin:
+
+1. Collections of the same element (or one type of data)
+   + IntArray --> Integer
+   + BooleanArray --> Boolean
+   + DoubleArray --> Double
+   + ByteArray --> Byte
+   + LongArray --> Long
+   + ShortArray --> Short
+   + FloatArray --> Float
+
+2. Immutable Collection --> Only read the values but cannot write to it
+   + List --> listOf //Similar to arrayOf but with less helper methods and size can be easily increased when needed
+   + Set --> setOf
+   + Map --> mapOf
+
+3. Mutable Collections
+   + Mutable List --> ArrayList, arrayListOf, mutableListOf
+   + Mutable Set --> mutableSetOf, hashSetOf
+   + Mutable Map --> HashMap, hasMapOf, mutableMapOf
